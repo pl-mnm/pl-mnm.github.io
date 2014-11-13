@@ -1,58 +1,11 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Paul M. / Freelance web-design &amp; developement</title>
-    <meta title="description" content="Under construction">
-    <meta name=viewport content="width=device-width,initial-scale=1">
-    <style>
-      body {
-        max-width: 30em;
-        margin: 0 auto 5em;
-        padding-left: 0.75em;
-        padding-right: 0.75em;
-        font-family: Georgia, serif;
-        line-height: 1.5;
-        color: #444;
-      }
-      h1, .heart {
-        color: red;
-      }
-      ul {
-        padding-left: 1.1em;
-        list-style-type: square;
-        color: red;
-      }
-      ul:hover {
-        color: #444;
-      }
-      a, a:visited, h2 {
-        color: #222;
-      }
-      a:hover {
-        color: red;
-        text-decoration: none;
-      }
+---
+layout: default
+metaDesc: "Freelance web-design &amp; developement"
+permalink: index.html
+---
 
-      @media screen and (min-width: 30em) {
-        body {
-          font-size: 131.25%;
-        }
-      }
-
-    </style>
-  </head>
-  <body>
-    <h1>Paul M.</h1>
-    <p><b>Freelance design, development &amp; <span class="heart">❤</span> for the modern web.</b></p>
-    <h2>Latest work</h2>
-    <ul>
-      <li><a href="http://www.maison-kayser-cambodia.asia">Maison Kayser Cambodia</a></li>
-    </ul>
-    <h2>About this site</h2>
-    <p>This site is and will probably remain a work in progress. I use this personal space for testing ideas, practices, accessibility, patterns, etc. and mainly just to have fun and to do whatever I want.</p>
-    <p>I'm just getting warmed up. Watch this space.</p>
-    <p>I'm on <a href="https://twitter.com/pl_mnm">Twitter</a>.</p>
-    <p><small>Powered by <a href="http://jekyllrb.com/">Jekyll</a>, hosted on <a href="https://pages.github.com/">GitHub Pages</a>.</small></p>
-  </body>
-</html>
+<main>
+  {% include latest-work.html %}
+  {% include about-site.html %}
+  {% include latest-updates.html %}
+</main>

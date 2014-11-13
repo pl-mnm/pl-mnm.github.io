@@ -1,0 +1,8 @@
+<section>
+  <h2>Latest work</h2>
+  <ul class="latestWork">
+    {% for entry in site.data.portfolio-links %}
+      <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>

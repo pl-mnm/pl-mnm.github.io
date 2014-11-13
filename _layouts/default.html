@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ page.metaDesc }}">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    {% include head-css.html %}
+    <!--[if lt IE 9]>
+      <script src="/assets/scripts/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <h1>{{ site.title }}</h1>
+      <p><b>Freelance design, development &amp; <span class="heart">❤</span> for the modern web.</b></p>
+    </header>
+    {{ content }}
+    <footer>
+      <p><small>Powered by <a href="http://jekyllrb.com/">Jekyll</a>, hosted on <a href="https://pages.github.com/">GitHub Pages</a>.</small></p>
+    </footer>
+  </body>
+</html>
