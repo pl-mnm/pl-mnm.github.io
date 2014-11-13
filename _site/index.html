@@ -6,6 +6,7 @@
     <meta name="description" content="Freelance web-design &amp; developement">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <style>
+
   article,
   aside,
   details,
@@ -22,22 +23,24 @@
     display: block;
   }
 
+  html {
+    font-family: Helvetica, arial, serif;
+    line-height: 1.5;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
 
   body {
     max-width: 30em;
     margin: 0 auto 5em;
     padding-left: 0.75em;
     padding-right: 0.75em;
-    font-family: Helvetica, arial, serif;
-    line-height: 1.5;
     color: #444;
   }
-
 
   h1, .heart {
     color: red;
   }
-
 
   ul {
     padding-left: 1.1em;
@@ -71,13 +74,13 @@
   }
 
   section {
-    margin: 4em 0;
+    margin: 2em 0;
   }
-
 
   footer {
     text-align: center; 
   }
+
 
   .latestWork {
     list-style-type: square;
@@ -105,12 +108,6 @@
       border-top: 1px dotted #222;
     }
 
-    .update h3 {
-      margin: 0;
-      font-size: 1em;
-      font-weight: normal;
-    }
-
   .updateCategory {
     text-transform: uppercase;
     font-weight: bold;
@@ -122,15 +119,14 @@
     font-weight: bold;
   }
 
-  .updateComments {
-    margin: 0;
-    padding-left: 1em;
-    font-style: italic;
-  }
 
   @media screen and (min-width: 30em) {
     body {
       font-size: 131.25%;
+    }
+
+    section {
+      margin: 3em 0;
     }
   }
 </style>
