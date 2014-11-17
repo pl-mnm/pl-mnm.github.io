@@ -1,0 +1,20 @@
+{
+  "name": "cafe-tekka",
+  "description": "Basic boilerplate with Compass, Susy and Breakpoint",
+  "version": "0.0.1",
+  "author": {
+    "name": "Paul Manem",
+    "email": "paul.manem@gmail.com"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-compass": "~1.0.1",
+    "load-grunt-tasks": "~1.0.0",
+    "grunt-contrib-connect": "~0.9.0",
+    "grunt-jekyll": "~0.4.2",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-scss-lint": "~0.3.4",
+    "grunt-contrib-cssmin": "~0.10.0"
+  }
+}

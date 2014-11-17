@@ -1,3 +1,4 @@
 title: Paul M.
 markdown: kramdown
 exclude: [Gemfile, Gemfile.lock]
+useCss: style.min.css

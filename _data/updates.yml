@@ -1,3 +1,8 @@
 - type: Site
+  date: 2014-11-17 00:00:00
+  title: Grunt, Compass and fonts
+  comments: Now using Grunt for deving locally and automating Jekyll, Compass and other tasks. Started playing with fonts.
+
+- type: Site
   date: 2014-11-13 01:01:00
   title: Jekyll now up and running on GitHub Pages

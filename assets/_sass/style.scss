@@ -1,0 +1,151 @@
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+html {
+  font-family: Helvetica, arial, serif;
+  line-height: 1.4;
+  text-size-adjust: 100%;
+}
+
+body {
+  color: #222;
+  font-family: 'museo-sans';
+  font-weight: 300;
+  margin: 0 auto 5em;
+  max-width: 30em;
+  padding-left: .75em;
+  padding-right: .75em;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'adelle';
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h1,
+.heart {
+  color: #f00;
+}
+
+ul {
+  padding-left: 1.1em;
+}
+
+a {
+  background-color: transparent;
+}
+
+a,
+a:visited,
+h2 {
+  color: #222;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: 80%;
+}
+
+section {
+  margin: 2em 0;
+}
+
+footer {
+  text-align: center; 
+}
+
+
+.latestWork {
+  color: #f00;
+  list-style-type: square;
+}
+  
+.latestWork:hover {
+  color: #444;
+}
+
+
+.updatesList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.update {
+  border-bottom: 1px dotted #222;
+  font-family: 'Courier New', 'Courier', monospace;
+  padding-bottom: .5em;
+  padding-top: .5em;
+}
+
+.update:first-child {
+  border-top: 1px dotted #222;
+}
+
+.updateDate,
+.updateCategory,
+.updateTitle {
+  font-weight: bold;
+}
+
+.updateCategory {
+  color: #f00;
+  text-transform: uppercase;
+}
+
+.updateDate {
+  text-transform: uppercase;
+}
+
+.updateComments {
+  display: block;
+  margin-top: 0.5em;
+}
+
+@media screen and (min-width: 30em) {
+  body {
+    font-size: 143%;
+  }
+
+  section {
+    margin: 3em 0;
+  }
+}

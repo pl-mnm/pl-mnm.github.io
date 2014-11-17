@@ -5,7 +5,9 @@
     <title>{{ site.title }}</title>
     <meta name="description" content="{{ page.metaDesc }}">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    {% include head-css.html %}
+    <link rel="stylesheet" href="assets/css/{{ site.useCss }}">
+    <script src="//use.typekit.net/icr1gbt.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
     <!--[if lt IE 9]>
       <script src="/assets/scripts/html5shiv.min.js"></script>
     <![endif]-->

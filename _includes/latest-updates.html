@@ -4,6 +4,7 @@
     {% for entry in site.data.updates %}
       <li class="update">
         <span class="updateDate">{{ entry.date | date: '%Y-%m-%d' }}</span> <span class="updateCategory">{{ entry.type }}</span> | <span class="updateTitle">{{ entry.title }}</span>
+        <span class="updateComments">{{ entry.comments }}</span>
       </li>
     {% endfor %}
   </ul>
